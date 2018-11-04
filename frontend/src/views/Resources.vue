@@ -71,15 +71,22 @@ export default {
   data: () => ({
     mainProjects: [
       {
+        title: "Sample repository for beginners",
+        description: "Create your html github profile page!",
+        url: "https://github.com/Kentico/hacktoberfest-event-brno-2018"
+      },
+      {
+        title: "Kentico Cloud most starred repositories!",
+        description:
+          "Create a unit test, use gramarly on readme/documentation, or refactor a part of the logic!",
+        url:
+          "https://github.com/search?o=desc&q=topic%3Akentico-cloud+org%3AKentico+fork%3Atrue&s=stars&type=Repositories"
+      },
+      {
         title: "Kentico Hacktobest Issues",
         description: "Pick one of the Kentico projects issues.",
         url:
           "https://github.com/search?q=org%3Akentico+label%3Ahacktoberfest+label%3Agroomed&type=Issues&state=open"
-      },
-      {
-        title: "Sample repository for beginners",
-        description: "Create the pull request of your choce",
-        url: "https://github.com/Kentico/hacktoberfest-event-brno-2018"
       }
     ],
     projects: [
@@ -99,6 +106,11 @@ export default {
       {
         title: "freeCodeCamp/guide",
         description: "A collection of guides to programming"
+      },
+      {
+        title: "hasura/graphql-engine",
+        description:
+          "Instant realtime GraphQL APIs on Postgres with access control"
       },
       {
         title: "30-seconds/30-seconds-of-code",
